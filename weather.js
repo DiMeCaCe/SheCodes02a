@@ -76,9 +76,6 @@ function convertToCelsius(event) {
   temperatureElement.innerHTML = (temperature-32)/1,8;
 }
 
-let celsius = document.querySelector("#convertToCelsius");
-farenheit.addEventListener("click", convertToCelsius);
-
 let dateElement = document.querySelector("#date");
 let currentTime = new Date();
 dateElement.innerHTML = formatDate(currentTime);
