@@ -67,6 +67,9 @@ function convertToFahrenheit(event) {
   temperatureElement.innerHTML = (temperature*1,8)+32;
 }
 
+let farenheit = document.querySelector("#convertToFahrenheit");
+farenheit.addEventListener("click", convertToFahrenheit);
+
 function convertToCelsius(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
