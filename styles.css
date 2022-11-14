@@ -14,6 +14,7 @@ h5 {
   padding: 5px;
   text-align: center;
   color: rgb(184, 109, 255);
+  display: inline;
 }
 ul {
   margin: 0 0 10px;
@@ -32,9 +33,9 @@ li {
 .weather-app {
   border: 1px solid #dadde1;
   padding: 15px;
-  margin: 20px auto;
+  margin: auto;
   border-radius: 10px;
-  max-width: 600px;
+  max-width: 800px;
 }
 
 .weather-icon {
@@ -91,7 +92,6 @@ form {
 }
 .board-title{
   font-size:12px;
-
 }
 .temp {
   text-align: center;
@@ -102,9 +102,9 @@ form {
   font-size: 30px;
 }
 .container {
-  margin-top: 50px;
-  margin-left: 50px;
-  border: 10px cornflowerblue;
+  margin-top: 30px;
+  margin-left: 30px;
+  border: 15px cornflowerblue;
     );
   width: 800px;
   box-shadow: 10px 10px 10px;
@@ -114,7 +114,7 @@ form {
   padding: 15px;
 }
 li {
-  display: block ;
+  display: inline ;
   font-size: 18px;
   font-weight: 300px;
   line-height: 30px;
