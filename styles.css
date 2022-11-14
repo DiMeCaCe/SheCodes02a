@@ -60,7 +60,7 @@ li {
 }
 
 form {
-  padding: 20px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
   width: 100px;
   size: 150px;
   display: inline;
@@ -103,7 +103,7 @@ form {
 }
 .container {
   margin-top: 50px;
-  margin-left: 250px;
+  margin-left: 50px;
   border: 10px cornflowerblue;
     );
   width: 800px;
@@ -155,8 +155,8 @@ button {
   }
   .wave{
     align-content:center;
-    width:600px;
-    margin:  0 0 auto;
+    width:300px;
+    margin: 0 0 0 auto;
   }
   .time{
     text-align: left;
